@@ -33,7 +33,7 @@ function Intro({ onComplete }: { onComplete: () => void }) {
             transition={{ duration: 0.8 }}
             className="text-2xl md:text-3xl font-light text-zinc-400 font-serif"
           >
-            죽음을 꿈꾸던 밤...
+            죽음을 꿈꾸는 밤...
           </motion.p>
         )}
         {step === 1 && (
@@ -334,7 +334,7 @@ export default function App() {
             <div className="grid md:grid-cols-3 gap-8">
               <CharacterCard 
                 name="배매희" 
-                role="남자 유혹 담당"
+                role="가출팸 소속"
                 age="22세"
                 traits={["ENFP", "귀여운 외모", "가출팸"]}
                 icon={Heart}
